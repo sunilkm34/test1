@@ -7,5 +7,5 @@ guess = int(input(f"Well, {name}, I'm thinking of a number between 1 and 10. Tak
 if guess == number:
     print("Congratulations! You guessed it!")
 else:
-    print(f"Nope! The number was {number}.")
+    print(f"Nope! The number was {number}..")
 
