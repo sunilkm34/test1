@@ -1,0 +1,7 @@
+name = input("What is your name? ")
+def greet(user_name):
+    print("Hello, " + user_name + "!")
+    print("Welcome to Python!")
+
+greet(name)
+
