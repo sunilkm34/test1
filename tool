@@ -1,0 +1,11 @@
+import random
+
+name = input("Hello! What is your name? ")
+number = random.randint(1, 10)
+guess = int(input(f"Well, {name}, I'm thinking of a number between 1 and 10. Take a guess: "))
+
+if guess == number:
+    print("Congratulations! You guessed it!")
+else:
+    print(f"Nope! The number was {number}.")
+
